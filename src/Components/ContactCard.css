@@ -1,0 +1,68 @@
+.content {
+    max-width: 520px;
+    padding: 35px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: rgb(244, 244, 244);
+    display: flex;
+    position: relative;
+    margin: auto;
+}
+
+.heading {
+    font-weight: bold;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    flex: 1;
+}
+
+.email {
+    padding-left: 20px;
+    color: rgb(71, 134, 174);
+}
+
+.phone {
+    margin-top: 10px;
+    padding-left: 20px;
+}
+
+.icons {
+    display: flex;
+    position: absolute;
+    top: 55px;
+    right: 35px;
+}
+
+.edit-icon, .trash-icon {
+    cursor: pointer;
+    transition: transform 0.3s, color 0.3s;
+}
+
+.edit-icon {
+    color: rgb(0, 0, 0);
+    margin-right: 10px;
+}
+
+.edit-icon:hover {
+    color: rgb(16, 139, 164);
+    transform: scale(1.2);
+}
+
+.trash-icon {
+    color: rgb(255, 78, 78);
+}
+
+.trash-icon:hover {
+    color: rgb(255, 0, 0);
+    transform: scale(1.2);
+}
+
+.card {
+    margin: 10px;
+    cursor: pointer;
+}
+
+img {
+    width: 70px;
+}

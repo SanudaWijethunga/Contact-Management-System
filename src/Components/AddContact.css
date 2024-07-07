@@ -1,0 +1,78 @@
+.main {
+    max-width: 660px;
+    margin: auto;
+    padding: 40px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: white;
+}
+
+.main h2{
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+}
+
+.section label {
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+.section input{
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.section select{
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.phone-input {
+    margin-bottom: 15px;
+}
+
+.phone-input .form-control {
+    width: 100% !important;
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+button{
+    margin-top: 30px;
+    margin-right: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #8b98a7;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.add-contact-btn:hover {
+    background-color: rgb(102, 213, 176);
+}
+
+.clear-contact-btn:hover{
+    background-color: rgb(220, 115, 115);
+}
+
+.back-btn:hover{
+    background-color:rgb(220, 115, 115);
+}
+
+.error{
+    color: red;
+}
